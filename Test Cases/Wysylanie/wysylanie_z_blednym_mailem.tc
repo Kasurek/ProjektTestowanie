@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>wysylanie danych formularzem na stronie z blednym adresem e-mail</description>
+   <name>wysylanie_z_blednym_mailem</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>73bca0d1-f2be-422e-866d-a388fc81db24</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>e9fc1b9a-dd8e-4525-a32b-e7bbe64ff035</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/test_data</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>e9fc1b9a-dd8e-4525-a32b-e7bbe64ff035</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>name</value>
+      <variableId>873bc942-4fe1-425f-b812-177d190665e4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>e9fc1b9a-dd8e-4525-a32b-e7bbe64ff035</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>mail</value>
+      <variableId>1a8a166c-5a9c-4859-883b-cd3a0fe6beec</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>e9fc1b9a-dd8e-4525-a32b-e7bbe64ff035</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>phone</value>
+      <variableId>455f3a61-a9ba-41b5-9fba-916b45a1f93e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>e9fc1b9a-dd8e-4525-a32b-e7bbe64ff035</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>subject</value>
+      <variableId>bceb0682-e46b-4358-8034-cb13ba2a133b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>e9fc1b9a-dd8e-4525-a32b-e7bbe64ff035</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>message</value>
+      <variableId>efe26f94-d307-4bdf-90d5-1e2392a45b5d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>e9fc1b9a-dd8e-4525-a32b-e7bbe64ff035</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>error_msg</value>
+      <variableId>89eebef4-0f82-4b78-b984-afa5b40dec7e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'qwertyyy'</defaultValue>
+      <description>imie uzytkownika</description>
+      <id>873bc942-4fe1-425f-b812-177d190665e4</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>'erweqrqwe'</defaultValue>
+      <description>adres mailowy</description>
+      <id>1a8a166c-5a9c-4859-883b-cd3a0fe6beec</id>
+      <masked>false</masked>
+      <name>mail</name>
+   </variable>
+   <variable>
+      <defaultValue>'12353412332'</defaultValue>
+      <description>numer telefonu</description>
+      <id>455f3a61-a9ba-41b5-9fba-916b45a1f93e</id>
+      <masked>false</masked>
+      <name>phone</name>
+   </variable>
+   <variable>
+      <defaultValue>'sdafsdfasdfasdf'</defaultValue>
+      <description>temat wiadomosci</description>
+      <id>bceb0682-e46b-4358-8034-cb13ba2a133b</id>
+      <masked>false</masked>
+      <name>subject</name>
+   </variable>
+   <variable>
+      <defaultValue>'adfsdfsdaf svffdfasdvdvsadvvdsvasdvasvsdvsa'</defaultValue>
+      <description>tresc wiadomosci</description>
+      <id>efe26f94-d307-4bdf-90d5-1e2392a45b5d</id>
+      <masked>false</masked>
+      <name>message</name>
+   </variable>
+   <variable>
+      <defaultValue>'musi być poprawnie sformatowanym adresem e-mail'</defaultValue>
+      <description>tresc bledu</description>
+      <id>89eebef4-0f82-4b78-b984-afa5b40dec7e</id>
+      <masked>false</masked>
+      <name>error_msg</name>
+   </variable>
+</TestCaseEntity>

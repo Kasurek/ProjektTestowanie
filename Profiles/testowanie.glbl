@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>testowanie</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>adres pierwszej aplikacji testowej</description>
+      <initValue>'https://automationintesting.online'</initValue>
+      <name>url1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>adres drugiej aplikacji testowej</description>
+      <initValue>'https://parabank.parasoft.com/parabank/index.htm'</initValue>
+      <name>url2</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

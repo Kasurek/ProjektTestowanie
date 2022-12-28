@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>rejestracja przy podaniu nieprawidlowego hasla podczas potwierdzania ustawionego hasla</description>
+   <name>rejestracja_inne_hasla</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a0a65116-c8c8-42a9-8d2a-9b31af464482</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>f729e582-c30e-4fee-b642-e9722b0e9d84</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/inne_hasla_data</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>f729e582-c30e-4fee-b642-e9722b0e9d84</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>error_message</value>
+      <variableId>935d4cdf-60dd-402b-8cce-b57cb38f4eac</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>f729e582-c30e-4fee-b642-e9722b0e9d84</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>fname</value>
+      <variableId>ef90d52e-25a4-4e25-904b-8bb8f8032bac</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>f729e582-c30e-4fee-b642-e9722b0e9d84</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>lname</value>
+      <variableId>adf73b4f-87c4-4f04-9d08-d0c830c78ae9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>f729e582-c30e-4fee-b642-e9722b0e9d84</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>address</value>
+      <variableId>49e53d44-8dca-4e42-a593-4e834739dcf1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>f729e582-c30e-4fee-b642-e9722b0e9d84</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>city</value>
+      <variableId>a521662c-aea6-4b66-9cba-3e165cabaf15</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>f729e582-c30e-4fee-b642-e9722b0e9d84</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>state</value>
+      <variableId>0fe1c8c9-fbcd-4f9e-ad00-abfd489d6b72</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>f729e582-c30e-4fee-b642-e9722b0e9d84</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>zip</value>
+      <variableId>155ea0c5-591c-48b4-96ea-2c520f7d2a5e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>f729e582-c30e-4fee-b642-e9722b0e9d84</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>phone</value>
+      <variableId>1a6424ee-ff70-42be-8bfe-b89abde6ec3b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>f729e582-c30e-4fee-b642-e9722b0e9d84</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>ssn</value>
+      <variableId>c8d4c6f7-5726-4212-bb2e-38874ab571c9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>f729e582-c30e-4fee-b642-e9722b0e9d84</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>username</value>
+      <variableId>1fd5a5a0-4a4a-402f-8041-09d82c701143</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>f729e582-c30e-4fee-b642-e9722b0e9d84</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>694197de-5e1c-49df-b009-2cd7a8f6d959</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>f729e582-c30e-4fee-b642-e9722b0e9d84</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password_confirmation</value>
+      <variableId>23c4d62c-769c-4981-8c4f-801ffedb2669</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Passwords did not match.'</defaultValue>
+      <description>tresc bledu po podaniu dwoch innych hasel podczas rejestracji</description>
+      <id>935d4cdf-60dd-402b-8cce-b57cb38f4eac</id>
+      <masked>false</masked>
+      <name>error_message</name>
+   </variable>
+   <variable>
+      <defaultValue>'imie'</defaultValue>
+      <description>Imie uzytkownika</description>
+      <id>ef90d52e-25a4-4e25-904b-8bb8f8032bac</id>
+      <masked>false</masked>
+      <name>fname</name>
+   </variable>
+   <variable>
+      <defaultValue>'nazwisko'</defaultValue>
+      <description>Nazwisko uzytkownika</description>
+      <id>adf73b4f-87c4-4f04-9d08-d0c830c78ae9</id>
+      <masked>false</masked>
+      <name>lname</name>
+   </variable>
+   <variable>
+      <defaultValue>'adres'</defaultValue>
+      <description>Adres uzytkownika</description>
+      <id>49e53d44-8dca-4e42-a593-4e834739dcf1</id>
+      <masked>false</masked>
+      <name>address</name>
+   </variable>
+   <variable>
+      <defaultValue>'miasto'</defaultValue>
+      <description>Miasto zamieszkania uzytkownika</description>
+      <id>a521662c-aea6-4b66-9cba-3e165cabaf15</id>
+      <masked>false</masked>
+      <name>city</name>
+   </variable>
+   <variable>
+      <defaultValue>'stan'</defaultValue>
+      <description>Stan zamieszkania uzytkownika</description>
+      <id>0fe1c8c9-fbcd-4f9e-ad00-abfd489d6b72</id>
+      <masked>false</masked>
+      <name>state</name>
+   </variable>
+   <variable>
+      <defaultValue>'28389-213129'</defaultValue>
+      <description>Zip-Code uzytkownika</description>
+      <id>155ea0c5-591c-48b4-96ea-2c520f7d2a5e</id>
+      <masked>false</masked>
+      <name>zip</name>
+   </variable>
+   <variable>
+      <defaultValue>'0730173821783'</defaultValue>
+      <description>Numer telefonu uzytkownika</description>
+      <id>1a6424ee-ff70-42be-8bfe-b89abde6ec3b</id>
+      <masked>false</masked>
+      <name>phone</name>
+   </variable>
+   <variable>
+      <defaultValue>'2139897489237'</defaultValue>
+      <description>SSN uzytkownika</description>
+      <id>c8d4c6f7-5726-4212-bb2e-38874ab571c9</id>
+      <masked>false</masked>
+      <name>ssn</name>
+   </variable>
+   <variable>
+      <defaultValue>'nazwauzytkownika'</defaultValue>
+      <description>Nazwa uzytkownika</description>
+      <id>1fd5a5a0-4a4a-402f-8041-09d82c701143</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'haslotest'</defaultValue>
+      <description>Haslo uzytkownika</description>
+      <id>694197de-5e1c-49df-b009-2cd7a8f6d959</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'haslomaslo'</defaultValue>
+      <description>Haslo uzytkownika potrzebne do potwierdzenia</description>
+      <id>23c4d62c-769c-4981-8c4f-801ffedb2669</id>
+      <masked>false</masked>
+      <name>password_confirmation</name>
+   </variable>
+</TestCaseEntity>
